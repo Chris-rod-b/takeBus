@@ -38,10 +38,11 @@ export const ListItem = ({ title, subtitle, onPress = () => null }) => {
             style={styles.tinyLogo}
             source={require('../../assets/favicon.png')}
           />
-          <Text style={styles.titleText}>{title}</Text>
-          <Text>{subtitle}</Text>
           <div>
-            <button type="submit">{'>'}</button>
+            <p>
+              <Text style={styles.titleText}>{title}</Text>
+            </p>
+            <Text>{subtitle}</Text> <button type="submit">{'>'}</button>
           </div>
         </View>
       </View>
