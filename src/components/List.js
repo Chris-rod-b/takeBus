@@ -28,7 +28,7 @@ const styles = StyleSheet.create({
   },
   col2: {
     position: 'left',
-    top: 5,
+    top: 15,
     left: 95,
     width: 250,
     height: 45,
@@ -36,7 +36,7 @@ const styles = StyleSheet.create({
   col3: {
     position: 'left',
     top: -20,
-    left: 380,
+    left: 350,
     width: 100,
     height: 35,
   },
@@ -55,8 +55,14 @@ const styles = StyleSheet.create({
   },
 });
 
-export const ListItem = ({ pontoLocal, pontoRota, pontoHora, onPress = () => null }) => {
+export const ListItem = ({
+  pontoLocal,
+  pontoRota,
+  pontoHora,
+  onPress = () => null,
+}) => {
   const rowStyles = [styles.row];
+  // eslint-disable-next-line no-unused-vars
   const wrapperStyles = [styles.wrapper];
 
   return (
@@ -74,7 +80,10 @@ export const ListItem = ({ pontoLocal, pontoRota, pontoHora, onPress = () => nul
           <Text style={styles.titleText}>{pontoHora}</Text>
         </View>
         <View style={styles.col3}>
-          <Image source={require('../../assets/arrow.png')} style={styles.tinyLogo}/>
+          <Image
+            source={require('../../assets/arrow.png')}
+            style={styles.tinyLogo}
+          />
         </View>
       </View>
     </TouchableOpacity>

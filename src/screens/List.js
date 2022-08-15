@@ -12,27 +12,45 @@ const styles = StyleSheet.create({
 
 const screens = [
   {
-    pontoLocal: 'Nações Unidas Qd. 23 Par',
-    pontoRota: 'Unesp/CTI',
-    pontoHora: '9:30',
+    pontoLocal: 'Nações Unidas Qd. 45 Par',
+    pontoRota: 'Unesp/Camélias',
+    pontoHora: '9:34',
     target: 'Embarque',
   },
   {
-    pontoLocal: 'Nações Unidas Qd. 23 Impar',
-    pontoRota: 'Unesp/CTI',
+    pontoLocal: 'Nações Unidas Qd. 45 Impar',
+    pontoRota: 'Jd. Ouro Verde',
     pontoHora: '9:36',
     target: 'Embarque',
   },
   {
-    pontoLocal: 'Nações Unidas Qd. 26 Par',
-    pontoRota: 'Tecnológica',
-    pontoHora: '9:32',
+    pontoLocal: 'Nações Unidas Qd. 42 Impar',
+    pontoRota: 'Jd. Ouro Verde',
+    pontoHora: '9:39',
     target: 'Embarque',
   },
   {
-    pontoLocal: 'Albino Tambara Qd. 03 Par',
-    pontoRota: 'Cidade Universitária via Distrito III',
-    pontoHora: '9:35',
+    pontoLocal: 'Nações Unidas Qd. 48 Impar',
+    pontoRota: 'Jd. Ouro Verde',
+    pontoHora: '9:33',
+    target: 'Embarque',
+  },
+  {
+    pontoLocal: 'Nações Unidas Qd. 48 Par',
+    pontoRota: 'Unesp/Camélias',
+    pontoHora: '9:37',
+    target: 'Embarque',
+  },
+  {
+    pontoLocal: 'dos Cajazeiros Qd. 08 Par',
+    pontoRota: 'Do Centro via Av. Duque de Cax...',
+    pontoHora: '9:48',
+    target: 'Embarque',
+  },
+  {
+    pontoLocal: 'dos Cajazeiros Qd. 08 Impar',
+    pontoRota: 'Do Geisel via Av. Duque de Caxias',
+    pontoHora: '10:21',
     target: 'Embarque',
   },
 ];

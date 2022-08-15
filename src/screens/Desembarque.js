@@ -1,5 +1,5 @@
 import React from 'react';
-import { StyleSheet, View} from 'react-native';
+import { StyleSheet, View } from 'react-native';
 
 import colors from '../constants/colors';
 import { Text } from '../components/Text';
@@ -32,13 +32,13 @@ const styles = StyleSheet.create({
   },
   col1: {
     position: 'left',
-    width: 150,
+    width: 180,
     height: 25,
   },
   col2: {
     position: 'left',
-    top: 0,
-    left: 150,
+    top: -10,
+    left: 160,
     width: 250,
     height: 60,
   },
@@ -60,16 +60,17 @@ const styles = StyleSheet.create({
     width: '2rem',
     height: '2rem',
   },
-
 });
 
 export const Desembarque = ({ navigation }) => (
   <View style={styles.topRow}>
-    <Text style={styles.titleText}>Tempo estimado de chegada no ponto mais próximo:</Text>
+    <Text style={styles.titleText}>
+      Tempo estimado de chegada no ponto mais próximo:
+    </Text>
     <View style={styles.col1}>
       <div type="col">
-      <Text style={styles.timeText}>15</Text>
-      <Text style={styles.minuteText}>min</Text>
+        <Text style={styles.timeText}>15</Text>
+        <Text style={styles.minuteText}>min</Text>
       </div>
     </View>
     <View style={styles.col2}>
@@ -79,10 +80,7 @@ export const Desembarque = ({ navigation }) => (
     </View>
     <br />
     <View style={styles.Center}>
-      <Button onPress={() => navigation.popToTop()}>
-        DESEMBARQUE
-      </Button>
+      <Button onPress={() => navigation.popToTop()}>DESEMBARQUE</Button>
     </View>
-    
   </View>
 );
