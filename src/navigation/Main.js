@@ -9,10 +9,13 @@ const MainStack = createStackNavigator();
 
 export const Main = () => (
   <MainStack.Navigator>
-    <MainStack.Screen 
-      name="Rotas" 
-      component={List} 
-      options={{ headerTitle: 'Rotas perto de você!', headerBackVisible:false}}
+    <MainStack.Screen
+      name="Rotas"
+      component={List}
+      options={{
+        headerTitle: 'Rotas perto de você!',
+        headerBackVisible: false,
+      }}
     />
     <MainStack.Screen
       name="Embarque"
@@ -22,7 +25,7 @@ export const Main = () => (
     <MainStack.Screen
       name="Desembarque"
       component={Desembarque}
-      options={{ headerTitle: 'Desembarque', headerBackVisible:false}}
+      options={{ headerTitle: 'Desembarque', headerBackVisible: false }}
     />
   </MainStack.Navigator>
 );

@@ -1,18 +1,9 @@
 /* eslint-disable no-unused-vars */
 import React from 'react';
-import {
-  StyleSheet,
-  View,
-  Alert,
-  Image,
-  TouchableOpacity,
-  useNavi,
-} from 'react-native';
+import { StyleSheet, View, Image } from 'react-native';
 import colors from '../constants/colors';
 import { Text } from '../components/Text';
 import { Button } from '../components/Button';
-import { ButtonOutline } from '../components/ButtonOutline';
-import { Desembarque } from './Desembarque';
 
 const styles = StyleSheet.create({
   topRow: {
@@ -67,7 +58,7 @@ const styles = StyleSheet.create({
   map: {
     top: '1rem',
     width: '26rem',
-    height: '22rem',
+    height: '18rem',
   },
 });
 
@@ -88,7 +79,7 @@ export const Embarque = ({ navigation }) => (
         EMBARQUE
       </Button>
       <br />
-      <Image style={styles.map} source={require('../../assets/MapEx.png')} />
+      <Image style={styles.map} source={require('../../assets/Map.jpeg')} />
       <br />
     </View>
   </View>

@@ -38,7 +38,7 @@ const styles = StyleSheet.create({
   col2: {
     position: 'left',
     top: -10,
-    left: 160,
+    left: 140,
     width: 250,
     height: 60,
   },
@@ -69,7 +69,7 @@ export const Desembarque = ({ navigation }) => (
     </Text>
     <View style={styles.col1}>
       <div type="col">
-        <Text style={styles.timeText}>15</Text>
+        <Text style={styles.timeText}>5</Text>
         <Text style={styles.minuteText}>min</Text>
       </div>
     </View>
@@ -80,7 +80,7 @@ export const Desembarque = ({ navigation }) => (
     </View>
     <br />
     <View style={styles.Center}>
-      <Button onPress={() => navigation.popToTop()}>DESEMBARQUE</Button>
+      <Button onPress={() => navigation.navigate('Rotas')}>DESEMBARQUE</Button>
     </View>
   </View>
 );
