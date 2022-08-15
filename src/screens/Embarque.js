@@ -58,7 +58,7 @@ const styles = StyleSheet.create({
   map: {
     top: '1rem',
     width: '26rem',
-    height: '18rem',
+    height: '24rem',
   },
 });
 
@@ -79,7 +79,7 @@ export const Embarque = ({ navigation }) => (
         EMBARQUE
       </Button>
       <br />
-      <Image style={styles.map} source={require('../../assets/Map.jpeg')} />
+      <Image style={styles.map} source={require('../../assets/map.gif')} />
       <br />
     </View>
   </View>
