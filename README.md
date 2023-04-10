@@ -11,7 +11,7 @@
 
 ## Figma
 
-For the project in Figma (UI) : https://www.figma.com/community/file/1222254698225300466
+For the project in Figma (UI) : https://www.figma.com/community/file/1227343671318854319
 
 ![image](https://user-images.githubusercontent.com/30882865/230915973-6a1a9a49-5feb-4896-a379-2b69b0a11b39.png) ![image](https://user-images.githubusercontent.com/30882865/230916542-902972ac-ac63-4dd1-8b76-f53e837d616a.png)
 
