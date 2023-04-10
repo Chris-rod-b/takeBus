@@ -20,3 +20,5 @@ It's easy to create a project, strip out the few components included, and still 
 - Run on iOS: `yarn ios` or `npm run ios`
 - Run on Android: `yarn android` or `npm run android`
 - Run on Web: `yarn web` or `npm run web`
+
+For the project in Figma (UI) : https://www.figma.com/community/file/1222254698225300466
